@@ -1,10 +1,16 @@
+<!--
+Manuel Romo López
+ID: 00000253080
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MatchyMatchy - Encuentra tu match</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./scripts/formActions.js"></script>
 </head>
 <body>
     <div class="container">
@@ -28,8 +34,6 @@
                 <input type="text" name="email" id="email">
 
                 <label for="gender">Tu género</label>
-                <input type="text" name="gender" id="gender">
-
                 <select id="gender" name="gender" required>
 
                     <option value="male">Hombre</option>
@@ -43,12 +47,10 @@
                     <legend>¿En qué estás interesadx?</legend>
                     <div class="checkbox-group">
 
-                        <label for="interest">Hombre</label>
-                        <input type="checkbox" name="interest" value="men">
+                        <label for="interest"><input type="checkbox" name="interest" value="men">Hombres </label>
 
-                        <label for="interest">Mujer</label>
-                        <input type="checkbox" name="interest" value="women">
-
+                        <label for="interest"><input type="checkbox" name="interest" value="women">Mujeres </label>
+                        
                     </div>
 
 
